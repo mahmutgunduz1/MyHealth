@@ -1,0 +1,158 @@
+<resources>
+    <string name="app_name">MyHealth</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Health App Strings -->
+    <string name="welcome">Welcome</string>
+    <string name="health">Health</string>
+    <string name="calories">Calories</string>
+    <string name="workout_duration">Workout Duration</string>
+    <string name="calories_goal">300 kcal</string>
+    <string name="workout_goal">30 min</string>
+    <string name="create_workout">Create your first workout plan!</string>
+    <string name="create">Create</string>
+    <string name="workouts_list">Workouts List</string>
+    <string name="no_records">No records</string>
+    <string name="start_now">Start now</string>
+    <string name="go">Go</string>
+    <string name="weight">Weight</string>
+    <string name="weight_management">Weight management</string>
+    <string name="keep_form">Keep your form</string>
+    <string name="heart_rate">Heart Rate</string>
+    <string name="device_pairing">Device pairing</string>
+    <string name="heart_health">Keep your heart healthy</string>
+    <string name="sleep">Sleep</string>
+    <string name="sleep_analysis">Sleep analysis</string>
+    <string name="improve_sleep">Improve your sleep quality</string>
+    <string name="blood_oxygen">Blood oxygen</string>
+    <string name="stress">Stress</string>
+    <string name="tab_health">Health</string>
+    <string name="tab_workouts">Workouts</string>
+    <string name="tab_devices">Devices</string>
+    <string name="tab_profile">Me</string>
+
+    <!-- Appointment Details Strings -->
+    <string name="appointment_details">Appointment Details</string>
+    <string name="about_doctor">About Doctor</string>
+    <string name="call">Call</string>
+    <string name="message">Message</string>
+    <string name="upcoming_appointment">Upcoming Appointment</string>
+    <string name="confirmed">Confirmed</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="location">Location</string>
+    <string name="reason_for_visit">Reason for Visit</string>
+    <string name="reschedule">Reschedule</string>
+    <string name="cancel">Cancel</string>
+    <string name="past_appointments">Past Appointments</string>
+    <string name="view">View</string>
+    <string name="book_new_appointment">Book New Appointment</string>
+    <string name="doctor_name">Doctor\'s Name</string>
+    <string name="no_upcoming_appointments">You don\'t have any upcoming appointments</string>
+    <string name="no_past_appointments">You don\'t have any past appointments</string>
+    <string name="cancel_appointment">Cancel Appointment</string>
+    <string name="cancel_confirmation">Are you sure you want to cancel this appointment?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="appointment_cancelled">Appointment cancelled successfully</string>
+    
+    <!-- Calendar Strings -->
+    <string name="calendar">Calendar</string>
+    <string name="appointments_for_date">Appointments for Selected Date</string>
+    <string name="no_appointments">No appointments</string>
+    <string name="no_appointments_for_date">No appointments for this date</string>
+    <string name="schedule_appointment">Schedule Appointment</string>
+    
+    <!-- Add Appointment Strings -->
+    <string name="add_appointment">Add Appointment</string>
+    <string name="select_doctor">Select Doctor</string>
+    <string name="specialty">Specialty</string>
+    <string name="start_time">Start Time</string>
+    <string name="end_time">End Time</string>
+    <string name="save_appointment">Save Appointment</string>
+    <string name="appointment_saved">Appointment saved successfully</string>
+    <string name="please_select_doctor">Please select a doctor</string>
+    <string name="please_select_specialty">Please select a specialty</string>
+    <string name="please_select_date">Please select a date</string>
+    <string name="please_select_start_time">Please select a start time</string>
+    <string name="please_select_end_time">Please select an end time</string>
+    <string name="please_enter_location">Please enter a location</string>
+    <string name="appointment_save_error">Error saving appointment</string>
+    <string name="cannot_select_past_time">Cannot select a time in the past</string>
+    <string name="end_time_must_be_after_start">End time must be after start time</string>
+
+    <!-- Login and Registration -->
+    <string name="my_health_record">My health record</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="mail">Mail</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="keep_me_signed_in">Keep me signed in</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="not_a_member">Not a Member?</string>
+    <string name="already_a_member">Already a Member?</string>
+    <string name="terms_and_conditions">I agree to the Terms and Conditions</string>
+    <string name="full_name">Full Name</string>
+    
+    <!-- Health Data Collection -->
+    <string name="health_information">Health Information</string>
+    <string name="health_data_welcome">Welcome! Please fill in the information below to create your health profile:</string>
+    <string name="full_name_label">Full Name</string>
+    <string name="gender">Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="other">Other</string>
+    <string name="date_of_birth">Date of Birth</string>
+    <string name="height_cm">Height (cm)</string>
+    <string name="weight_kg">Weight (kg)</string>
+    <string name="activity_level">Activity Level</string>
+    <string name="sedentary">Sedentary</string>
+    <string name="lightly_active">Lightly Active</string>
+    <string name="active">Active</string>
+    <string name="very_active">Very Active</string>
+    <string name="save">Save</string>
+    <string name="data_saved_success">Your health data has been successfully saved</string>
+    <string name="please_select_gender">Please select your gender</string>
+    <string name="please_enter_birthdate">Please enter your date of birth</string>
+    <string name="please_enter_height">Please enter your height</string>
+    <string name="please_enter_weight">Please enter your weight</string>
+    <string name="please_select_activity_level">Please select your activity level</string>
+    
+    <!-- Profile and Health Data Update -->
+    <string name="my_profile">My Profile</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="health_summary">Health Summary</string>
+    <string name="height">Height</string>
+    <string name="bmi">BMI</string>
+    <string name="update_measurements">Update Measurements</string>
+    <string name="settings">Settings</string>
+    <string name="notifications">Notifications</string>
+    <string name="language">Language</string>
+    <string name="help_and_support">Help and Support</string>
+    <string name="logout">Logout</string>
+    <string name="update_health_data">Update Health Information</string>
+    <string name="update_successful">Update successful</string>
+    <string name="data_loading_error">Data loading error</string>
+    <string name="no_health_data">No health data found</string>
+    <string name="cm">cm</string>
+    <string name="kg">kg</string>
+    <string name="height_with_unit">%d cm</string>
+    <string name="weight_with_unit">%.1f kg</string>
+    <string name="no_data">--</string>
+    
+    <!-- Water Intake and Sleep Hours -->
+    <string name="water_intake">Water Intake</string>
+    <string name="water_intake_glasses">Water Intake (glasses)</string>
+    <string name="daily_water_goal">Daily Water Goal</string>
+    <string name="increase">Increase</string>
+    <string name="decrease">Decrease</string>
+    <string name="sleep_hours">Sleep Hours</string>
+    <string name="sleep_hours_label">Sleep Hours (hours)</string>
+    <string name="sleep_start_time">Sleep Start Time</string>
+    <string name="sleep_end_time">Wake Up Time</string>
+    <string name="please_enter_water_intake">Please enter your water intake</string>
+    <string name="please_enter_sleep_hours">Please enter your sleep hours</string>
+</resources>

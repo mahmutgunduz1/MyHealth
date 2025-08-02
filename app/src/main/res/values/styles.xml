@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Bottom Navigation Custom Style -->
+    <style name="CustomBottomNavigationView" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="itemIconTint">@color/bottom_nav_item_color_teal</item>
+        <item name="itemTextColor">@color/bottom_nav_item_color_teal</item>
+        <item name="itemRippleColor">@color/primary_teal</item>
+        <item name="itemTextAppearanceActive">@style/TextAppearance.BottomNavigationView.Active</item>
+        <item name="itemTextAppearanceInactive">@style/TextAppearance.BottomNavigationView.Inactive</item>
+        <item name="itemHorizontalTranslationEnabled">false</item>
+        <item name="itemIconSize">20dp</item>
+    </style>
+
+    <style name="TextAppearance.BottomNavigationView.Active" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="fontFamily">sans-serif</item>
+        <item name="android:letterSpacing">0</item>
+    </style>
+
+    <style name="TextAppearance.BottomNavigationView.Inactive" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="android:textSize">10sp</item>
+        <item name="fontFamily">sans-serif</item>
+        <item name="android:alpha">0.7</item>
+        <item name="android:letterSpacing">0</item>
+    </style>
+    
+    <!-- Card Style for Health Items -->
+    <style name="HealthCardStyle" parent="Widget.MaterialComponents.CardView">
+        <item name="cardCornerRadius">16dp</item>
+        <item name="cardElevation">2dp</item>
+        <item name="strokeWidth">0dp</item>
+        <item name="cardBackgroundColor">@color/card_background_light</item>
+    </style>
+    
+    <!-- Text Styles -->
+    <style name="TextHeading" parent="TextAppearance.MaterialComponents.Headline5">
+        <item name="android:textColor">@color/text_dark</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+    <style name="TextSubheading" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <item name="android:textColor">@color/text_dark</item>
+    </style>
+    
+    <style name="TextBody" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:textColor">@color/text_dark</item>
+    </style>
+    
+    <style name="TextCaption" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="android:textColor">@color/text_dark</item>
+        <item name="android:alpha">0.7</item>
+    </style>
+    
+    <!-- Button Styles -->
+    <style name="ButtonPrimary" parent="Widget.MaterialComponents.Button">
+        <item name="android:backgroundTint">@color/primary_teal</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="cornerRadius">24dp</item>
+    </style>
+    
+    <style name="ButtonOutlined" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="strokeColor">@color/primary_teal</item>
+        <item name="android:textColor">@color/primary_teal</item>
+        <item name="cornerRadius">24dp</item>
+    </style>
+
+    <!-- Calendar styles -->
+    <style name="CalendarDateTextAppearance">
+        <item name="android:textColor">@color/text_dark</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="CalendarWeekTextAppearance">
+        <item name="android:textColor">@color/primary_teal</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    
+    <!-- Input Field styles -->
+    <style name="AppTextInputLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="android:textColorHint">@color/text_input_hint_color</item>
+        <item name="hintTextColor">@color/primary_teal</item>
+        <item name="boxStrokeColor">@color/text_input_box_stroke</item>
+        <item name="hintEnabled">true</item>
+        <item name="hintAnimationEnabled">true</item>
+        <item name="android:textSize">16sp</item>
+        <item name="hintTextAppearance">@style/HintTextAppearance</item>
+    </style>
+    
+    <style name="AppTextInputLayoutDropdownStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+        <item name="android:textColorHint">@color/text_input_hint_color</item>
+        <item name="hintTextColor">@color/primary_teal</item>
+        <item name="boxStrokeColor">@color/text_input_box_stroke</item>
+        <item name="hintEnabled">true</item>
+        <item name="hintAnimationEnabled">true</item>
+        <item name="android:textSize">16sp</item>
+        <item name="hintTextAppearance">@style/HintTextAppearance</item>
+    </style>
+    
+    <style name="HintTextAppearance" parent="TextAppearance.MaterialComponents.Subtitle2">
+        <item name="android:textColor">@color/primary_teal</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+    <style name="AppTextInputEditTextStyle" parent="Widget.MaterialComponents.TextInputEditText.OutlinedBox">
+        <item name="android:textColor">@color/text_dark</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:padding">12dp</item>
+    </style>
+    
+    <style name="AppAutoCompleteTextViewStyle" parent="Widget.AppCompat.AutoCompleteTextView">
+        <item name="android:textColor">@color/text_dark</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:padding">12dp</item>
+    </style>
+
+    <!-- TextInputLayout style for both light and dark modes -->
+    <style name="CustomTextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/text_input_box_stroke</item>
+        <item name="hintTextColor">@color/primary_teal</item>
+        <item name="android:textColorHint">@color/text_input_hint_color</item>
+        <item name="startIconTint">@color/primary_teal</item>
+        <item name="endIconTint">@color/primary_teal</item>
+        <item name="boxStrokeWidth">1dp</item>
+        <item name="boxStrokeWidthFocused">2dp</item>
+    </style>
+    
+    <!-- TextInputEditText style for both light and dark modes -->
+    <style name="CustomTextInputEditText" parent="Widget.MaterialComponents.TextInputEditText.OutlinedBox">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textColorHint">@color/medium_gray</item>
+        <item name="android:paddingStart">12dp</item>
+        <item name="android:paddingEnd">12dp</item>
+    </style>
+</resources> 

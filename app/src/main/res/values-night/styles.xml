@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- TextInputLayout style for dark mode (using light mode colors) -->
+    <style name="CustomTextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/primary_teal</item>
+        <item name="hintTextColor">@color/primary_teal</item>
+        <item name="android:textColorHint">@color/text_dark</item>
+        <item name="startIconTint">@color/primary_teal</item>
+        <item name="endIconTint">@color/primary_teal</item>
+        <item name="boxStrokeWidth">1dp</item>
+        <item name="boxStrokeWidthFocused">2dp</item>
+    </style>
+    
+    <!-- TextInputEditText style for dark mode (using light mode colors) -->
+    <style name="CustomTextInputEditText" parent="Widget.MaterialComponents.TextInputEditText.OutlinedBox">
+        <item name="android:textColor">@color/text_dark</item>
+        <item name="android:textColorHint">@color/text_dark</item>
+        <item name="android:paddingStart">12dp</item>
+        <item name="android:paddingEnd">12dp</item>
+    </style>
+</resources> 

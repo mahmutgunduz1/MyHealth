@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Main app colors based on the image -->
+    <color name="primary_teal">#10A99E</color>
+    <color name="light_teal">#E0F5F3</color>
+    <color name="dark_teal">#098D84</color>
+    <color name="text_dark">#333333</color>
+    <color name="text_light">#FFFFFF</color>
+    <color name="background_light">#F5F5F5</color>
+    <color name="card_background_light">#E8F5F4</color>
+    <color name="light_gray">#F5F5F5</color>
+    <color name="medium_gray">#DDDDDD</color>
+    <color name="icon_tint">#10A99E</color>
+    
+    <!-- Accent colors for various health categories -->
+    <color name="accent_blue">#4A9FF5</color>
+    <color name="accent_green">#4CAF50</color>
+    <color name="accent_orange">#FF9800</color>
+    <color name="accent_red">#F44336</color>
+    <color name="accent_purple">#9C27B0</color>
+
+    <!-- Keep existing colors for backward compatibility -->
+    <color name="darkBlue">#1E2A38</color>
+    <color name="blue">#3F51B5</color>
+    <color name="orange">#FF9800</color>
+    <color name="darkCream">#FFF8E1</color>
+    <color name="lavender">#8B9AFF</color>
+    <color name="renk1">#dabbfa</color>
+    <color name="ana">#261f47</color>
+    <color name="renk2">#FF5722</color>
+
+    <color name="dialog_background">#1E2A38</color>
+    <color name="input_background">#2A3744</color>
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#80FFFFFF</color>
+
+    <!-- File picker colors -->
+    <color name="ripple_material_light">#1F000000</color>
+    <color name="divider_color">#EEEEEE</color>
+    <color name="text_color_primary">#212121</color>
+    <color name="image_tint">#4CAF50</color>
+    <color name="video_tint">#F44336</color>
+    <color name="audio_tint">#2196F3</color>
+    <color name="document_tint">#FF9800</color>
+    <color name="gray">#757575</color>
+    <color name="gray_light">#BDBDBD</color>
+    <color name="red">#F44336</color>
+    
+    <!-- Health App Colors -->
+    <color name="background_dark">#000000</color>
+    <color name="card_background">#1C1C1E</color>
+    <color name="text_gray">#B0B0B0</color>
+    <color name="health_accent_orange">#FF8000</color>
+    <color name="ring_green">#4CAF50</color>
+    <color name="ring_blue">#00BCD4</color>
+    <color name="ring_orange">#FF9800</color>
+    <color name="icon_green">#4CAF50</color>
+    <color name="icon_purple">#9C27B0</color>
+    <color name="icon_blue">#2196F3</color>
+    <color name="icon_red">#F44336</color>
+    <color name="icon_orange">#FF9800</color>
+    <color name="icon_teal">#009688</color>
+    <color name="secondary_orange">#FF9800</color>
+    <color name="dark_orange">#F57C00</color>
+</resources>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.semihacetintas.myhealth.ui.fragment.HomePageFragment"
+        android:label="fragment_home_page"
+        tools:layout="@layout/fragment_home_page">
+        <action
+            android:id="@+id/action_homeFragment_to_addAppointmentFragment"
+            app:destination="@id/addAppointmentFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_updateHealthDataFragment"
+            app:destination="@id/updateHealthDataFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_exercisesFragment"
+            app:destination="@id/exercisesFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/addAppointmentFragment"
+        android:name="com.semihacetintas.myhealth.ui.fragment.AddAppointmentFragment"
+        android:label="fragment_add_appointment"
+        tools:layout="@layout/fragment_add_appointment">
+        <action
+            android:id="@+id/action_addAppointmentFragment_to_appointmentDetailsFragment"
+            app:destination="@id/addAppointmentDetail" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/addAppointmentDetail"
+        android:name="com.semihacetintas.myhealth.ui.fragment.AppointmentDetailsFragment"
+        android:label="fragment_appointment_details"
+        tools:layout="@layout/fragment_appointment_details">
+        <action
+            android:id="@+id/action_addAppointmentDetail_to_addAppointmentFragment"
+            app:destination="@id/addAppointmentFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/calendarFragment"
+        android:name="com.semihacetintas.myhealth.ui.fragment.CalendarFragment"
+        android:label="fragment_calendar"
+        tools:layout="@layout/fragment_calendar">
+        <action
+            android:id="@+id/action_calendarFragment_to_addAppointmentFragment"
+            app:destination="@id/addAppointmentFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.semihacetintas.myhealth.ui.fragment.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile">
+        <action
+            android:id="@+id/action_profileFragment_to_addAppointmentFragment"
+            app:destination="@id/addAppointmentFragment" />
+        <action
+            android:id="@+id/action_profileFragment_to_loginFragment"
+            app:destination="@id/loginFragment"
+            app:popUpTo="@id/loginFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_profileFragment_to_healthDataCollectionFragment"
+            app:destination="@id/healthDataCollectionFragment" />
+        <action
+            android:id="@+id/action_profileFragment_to_updateHealthDataFragment"
+            app:destination="@id/updateHealthDataFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.semihacetintas.myhealth.ui.fragment.loginfragment.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/loginFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_loginFragment_to_registerFragment"
+            app:destination="@id/registerFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_healthDataCollectionFragment"
+            app:destination="@id/healthDataCollectionFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.semihacetintas.myhealth.ui.fragment.loginfragment.RegisterFragment"
+        android:label="fragment_register"
+        tools:layout="@layout/fragment_register" >
+        <action
+            android:id="@+id/action_registerFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+        <action
+            android:id="@+id/action_registerFragment_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/loginFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_registerFragment_to_healthDataCollectionFragment"
+            app:destination="@id/healthDataCollectionFragment"
+            app:popUpTo="@id/loginFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/healthDataCollectionFragment"
+        android:name="com.semihacetintas.myhealth.ui.fragment.healthdata.HealthDataCollectionFragment"
+        android:label="fragment_health_data_collection"
+        tools:layout="@layout/fragment_health_data_collection" >
+        <action
+            android:id="@+id/action_healthDataCollectionFragment_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/loginFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_healthDataCollectionFragment_to_loginFragment"
+            app:destination="@id/loginFragment"
+            app:popUpTo="@id/loginFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/updateHealthDataFragment"
+        android:name="com.semihacetintas.myhealth.ui.fragment.healthdata.UpdateHealthDataFragment"
+        android:label="fragment_update_health_data"
+        tools:layout="@layout/fragment_update_health_data" >
+        <action
+            android:id="@+id/action_updateHealthDataFragment_to_profileFragment"
+            app:destination="@id/profileFragment"
+            app:popUpTo="@id/profileFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/exercisesFragment"
+        android:name="com.semihacetintas.myhealth.ui.fragment.ExercisesFragment"
+        android:label="fragment_exercises"
+        tools:layout="@layout/fragment_exercises" />
+
+</navigation>

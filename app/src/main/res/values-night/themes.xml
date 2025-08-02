@@ -1,0 +1,66 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MyHealth" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Use the same colors as light mode -->
+        <item name="colorPrimary">@color/primary_teal</item>
+        <item name="colorPrimaryVariant">@color/dark_teal</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/primary_teal</item>
+        <item name="colorSecondaryVariant">@color/dark_teal</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="android:statusBarColor">@color/primary_teal</item>
+        
+        <!-- Force light mode text colors -->
+        <item name="android:textColorPrimary">@color/text_dark</item>
+        <item name="android:textColorSecondary">@color/text_dark</item>
+        <item name="android:textColorHint">@color/text_dark</item>
+        
+        <!-- Material Design TextInputLayout colors -->
+        <item name="colorOutline">@color/medium_gray</item>
+        <item name="colorOnSurface">@color/text_dark</item>
+        
+        <!-- Force light mode background -->
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+
+    <style name="Theme.MyHealth" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary_teal</item>
+        <item name="colorPrimaryVariant">@color/dark_teal</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/secondary_orange</item>
+        <item name="colorSecondaryVariant">@color/dark_orange</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="android:windowBackground">@color/background_light</item>
+
+        <!-- TextInputLayout default settings -->
+        <item name="textInputStyle">@style/AppTextInputLayoutStyle</item>
+        <item name="autoCompleteTextViewStyle">@style/AppAutoCompleteTextViewStyle</item>
+        <item name="editTextStyle">@style/AppTextInputEditTextStyle</item>
+        
+        <!-- Force light mode -->
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+    </style>
+
+    <style name="AppTextInputLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/primary_teal</item>
+        <item name="hintTextColor">@color/primary_teal</item>
+        <item name="android:textColorHint">@color/text_dark</item>
+        <item name="startIconTint">@color/primary_teal</item>
+        <item name="endIconTint">@color/primary_teal</item>
+    </style>
+
+    <style name="AppTextInputEditTextStyle" parent="Widget.MaterialComponents.TextInputEditText.OutlinedBox">
+        <item name="android:textColor">@color/text_dark</item>
+        <item name="android:textColorHint">@color/text_dark</item>
+    </style>
+
+    <style name="AppAutoCompleteTextViewStyle" parent="Widget.AppCompat.AutoCompleteTextView">
+        <item name="android:textColor">@color/text_dark</item>
+        <item name="android:textColorHint">@color/text_dark</item>
+    </style>
+</resources>
